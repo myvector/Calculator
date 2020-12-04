@@ -1,0 +1,41 @@
+.App-body {
+  background-color: #000;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #e3e3e3;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+.App-input {
+  text-align: right;
+  padding: 0 30px;
+  font-size: 80px;
+}
+
+.calc {
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+}
+
+.body-calc {
+  display: flex;
+  justify-content: center;
+  color: #e3e3e3;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+ul,
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.size {
+  font-size: 50px;
+}
